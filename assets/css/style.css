@@ -2578,10 +2578,8 @@ progress {
 .form-control:focus {
   color: #424242;
   background-color: #F5F5F5;
-  border-color: #ffd987;
+  border-color: #a8bfaa;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 179, 14, 0.25);
-  box-shadow: 0 0 0 0.25rem rgba(255, 179, 14, 0.25);
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -3537,8 +3535,8 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #616161;
-  background-color: #ffc23e;
-  border-color: #ffbb26;
+  background-color: #39db4a;
+  border-color: #39db4a;
 }
 
 .btn-check:checked + .btn-primary:focus,
@@ -3597,14 +3595,14 @@ fieldset:disabled .btn {
 
 .btn-success {
   color: #FFFEFE;
-  background-color: #79B93C;
-  border-color: #79B93C;
+  background-color: #39db4a;
+  border-color: #39db4a;
 }
 
 .btn-success:hover {
   color: #FFFEFE;
-  background-color: #679d33;
-  border-color: #619430;
+  background-color: #1bd140;
+  border-color: #1bd140;
 }
 
 .btn-check:focus + .btn-success, .btn-success:focus {
@@ -4666,7 +4664,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #1a1a1a;
+  color: #39db4a;
 }
 
 .nav-link.disabled {
@@ -4700,8 +4698,8 @@ fieldset:disabled .btn {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #F17228;
-  background-color: rgba(241, 114, 40, 0.15);
+  color: #159e30;
+  background-color: #96f2a4;
   border-color: transparent;
 }
 
@@ -9500,7 +9498,7 @@ fieldset:disabled .btn {
 }
 
 .text-success {
-  color: #79B93C !important;
+  color: #39db4a !important;
 }
 
 .text-info {
@@ -17571,8 +17569,8 @@ ul {
 }
 
 .text-gradient {
-  background: -o-linear-gradient(40deg, #fb3c00, #ffb800);
-  background: linear-gradient(50deg, #fb3c00, #ffb800);
+  background: -o-linear-gradient(40deg, #39db4a, #64eb7e);
+  background: linear-gradient(50deg, #39db4a, #64eb7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -18496,3 +18494,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 -----------------------------------------------*/
 
 /*# sourceMappingURL=theme.css.map */
+
