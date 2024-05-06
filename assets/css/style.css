@@ -103,6 +103,12 @@ h1,
   font-size: calc(1.37383rem + 1.48598vw);
 }
 
+no-wrap { /* Refer to the h5, .h5 class above to keep the no-wrap not working*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds an ellipsis if the text is too long */
+}
+
 @media (min-width: 1200px) {
   h1,
   .h1 {
@@ -17931,6 +17937,12 @@ ul {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-42.47%, rgba(255, 206, 103, 0.22)), to(rgba(253, 237, 202, 0)));
   background: -o-linear-gradient(top, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
   background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+
+.bg-green-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-42.47%, rgba(57, 219, 74, 0.1)), to(rgba(253, 237, 202, 0)));
+  background: -o-linear-gradient(top, rgba(57, 219, 74, 0.1) -42.47%, rgba(253, 237, 202, 0) 100%);
+  background: linear-gradient(180deg, rgba(57, 219, 74, 0.1) -42.47%, rgba(253, 237, 202, 0) 100%);
 }
 
 .bg-dark-gradient {
